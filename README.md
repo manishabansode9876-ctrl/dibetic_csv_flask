@@ -2,11 +2,8 @@
 predict and proba of diabetic patient using various features
 
 PORTFOLIO MARKDOWN:
-# Diabetes Prediction Web App (Flask)
 
-![Python](https://img.shields.io/badge/Python-3.11-blue) ![Flask](https://img.shields.io/badge/Flask-2.3-green) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3-orange)
-
----
+[ https://github.com/manishabansode9876-ctrl/dibetic_csv_flask.git] 
 
 ---
 # Diabetes Prediction Flask App

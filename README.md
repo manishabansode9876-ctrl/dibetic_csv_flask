@@ -1,5 +1,14 @@
 # dibetic_csv_flask
 predict and proba of diabetic patient using various features
+
+PORTFOLIO MARKDOWN:
+# Diabetes Prediction Web App (Flask)
+
+![Python](https://img.shields.io/badge/Python-3.11-blue) ![Flask](https://img.shields.io/badge/Flask-2.3-green) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3-orange)
+
+---
+
+---
 # Diabetes Prediction Flask App
 
 This is a simple **Flask web application** that predicts whether a person is likely to have diabetes based on certain health parameters. The model is built using a logistic regression classifier, and the app allows users to input their data through a web form to get predictions.

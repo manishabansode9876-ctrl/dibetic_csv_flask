@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction</title>
+</head>
+<body>
+    <h2>Diabetes Prediction Form</h2>
+    <form action="/predict" method="post">
+        <label>Glucose:</label><input type="text" name="Glucose" required><br><br>
+        <label>BloodPressure:</label><input type="text" name="BloodPressure" required><br><br>
+        <label>SkinThickness:</label><input type="text" name="SkinThickness" required><br><br>
+        <label>Insulin:</label><input type="text" name="Insulin" required><br><br>
+        <label>BMI:</label><input type="text" name="BMI" required><br><br>
+        <label>DiabetesPedigreeFunction:</label><input type="text" name="DPF" required><br><br>
+        <label>Age:</label><input type="text" name="Age" required><br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction_text %}
+        <h3>{{ prediction_text }}</h3>
+    {% endif %}
+</body>
+</html>
+
